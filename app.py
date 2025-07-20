@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 st.set_page_config(page_title="Data Scientist Buddy", page_icon="🤖")
-st.title("🤖 Data Scientist Buddy (Gemini)")
+st.title("🤖 Data Scientist Buddy ")
 
 # ✅ Load API key securely
 API_KEY = st.secrets.get("GEMINI_API_KEY")
