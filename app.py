@@ -4,7 +4,7 @@ import requests
 import os
 
 
-API_KEY = st.secrets["OPENROUTER_API_KEY"]
+API_KEY = st.secrets.get("OPENROUTER_API_KEY")
 
 
 # 🔐 Your OpenRouter API key (keep this secret!)
