@@ -4,7 +4,7 @@ import time
 
 st.set_page_config(page_title="Data Scientist Buddy", page_icon="🤖")
 API_KEY = st.secrets.get("OPENROUTER_API_KEY")
-MODEL_ID = "deepseek/deepseek-chat-v3-0324:free"
+MODEL_ID = "gemini-2.5-flash"
 
 if not API_KEY:
     st.error("❌ OPENROUTER_API_KEY not found in Streamlit secrets.")
